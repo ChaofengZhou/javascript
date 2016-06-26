@@ -1353,8 +1353,8 @@
     };
 
     var luke = new Jedi();
-    luke.jump(); // => true
-    luke.setHeight(20); // => undefined
+    luke.jump() // => true
+      .setHeight(20); // => undefined
 
     // good
     Jedi.prototype.jump = function jump() {
